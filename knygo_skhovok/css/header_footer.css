@@ -28,6 +28,7 @@ header img{
 .main-nav a{
     color: #805E52;
     text-decoration: none;
+    font-size: 1.25vw;
 }
 .main-nav a:hover{
     color: #422c24;
@@ -53,9 +54,16 @@ footer{
     font-family: Montserrat;
     color: #E6CCB2;
 }
+footer h4{
+    font-size: 1.25vw;
+}
+footer p{
+    font-size: 1.1vw;
+}
 .dovidka a{
     color: #E6CCB2;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 .dovidka a:hover{
     color: #463027
