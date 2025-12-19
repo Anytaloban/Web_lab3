@@ -1,0 +1,63 @@
+@import url("header_footer.css");
+@font-face{
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+body{   
+    margin: 0; 
+    padding: 0;   
+}
+main{
+    margin: 0;
+    padding: 2vw;
+    overflow: hidden;
+    background-color: #F6EFE9;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    padding: 2vw;
+    background-color: #c2c5aa;
+    color: #333D29;
+    width: 70vw;
+}
+.about h1{
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 0;
+}
+.about p{
+    font-size: 1.25vw;
+}
+.contacts{
+    background-color: #c2c5aa;
+    color: #333D29;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contacts img{
+    width: 30vw;
+}
+.contacts_text{
+    padding-left: 2vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.contacts_text a{
+    padding: 0;
+    margin: 0;
+    color: #333D29;
+}
+.contacts_text p, h1, h3{
+    padding: 0;
+    margin: 1vw;
+    font-size: 1vw;
+}
+

@@ -1,0 +1,65 @@
+@font-face{
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+header{
+    background-color: #E6CCB2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    width: 25vw;
+    height: auto;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+.main-nav ul{
+    width: 20vw;
+    list-style-type: none;
+    font-family: Montserrat;
+    padding: 0px;
+    display: flex; 
+    justify-content: space-between;
+}
+.main-nav a{
+    color: #805E52;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color: #422c24;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons a:hover{
+    background-color: #cea983;
+}
+footer{
+    background-color: #805E52;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Montserrat;
+    color: #E6CCB2;
+}
+.dovidka a{
+    color: #E6CCB2;
+    text-decoration: none;
+}
+.dovidka a:hover{
+    color: #463027
+}
+.dovidka ul{
+    list-style-type: none;  
+    padding: 0px;
+}
