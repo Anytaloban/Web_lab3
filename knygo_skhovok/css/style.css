@@ -121,6 +121,10 @@ main{
     justify-content: space-between;
     margin-bottom: 4vw;
 }
+.product img{
+    width:20vw;
+    height: 25vw;
+}
 .compare{
     width: 100vw;
     background-color: #A4AC86;
