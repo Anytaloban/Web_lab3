@@ -61,10 +61,19 @@ main{
     margin: 0;
     color: #333D29;
 }
-.contacts_text p, h1, h3{
+.contacts_text p{
     padding: 0;
     margin: 1vw;
     font-size: 1vw;
+}
+.contacts_text h3{
+    margin:0;
+    padding: 0.5vw;
+    font-size: 1.25vw;
+    font-weight: bolder;
+}
+.contacts_text h1{
+    font-size: 2.75vw;
 }
 /*Для Деталі товару*/
 .hyperlink{
