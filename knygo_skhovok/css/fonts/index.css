@@ -1,0 +1,178 @@
+@font-face{
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(fonts/CormorantGaramond-Light.ttf);
+    font-family: CormorantGaramond;
+}
+/*Для Головна*/
+main.head {
+    padding: 0 !important;
+}
+.search{
+    overflow: hidden;
+    background-color: #805E52;
+    color: #EDE0D4;
+    font-family: CormorantGaramond;
+    font-size: 1.65vw;
+    width: 100vw;
+    display: flex;
+}
+.search img{
+    width: 45vw;
+}
+.panel {
+    padding-left: 4vw;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.head .search-bar{
+    display: flex;
+    justify-content: left;
+}
+.publishers{
+    width: 100vw;
+    background-color: #A4AC86;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.publishers h3{
+    padding-left: 15vw;
+    font-size: 1.5vw;
+    color: #D9CDC2;
+}
+.publishers ul{
+    margin-left: 15vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0;
+    margin-bottom: 2vw;
+    background-color: #805E52;
+    width: 70vw;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+.publishers li{
+    display: flex;
+    justify-content: center;
+}
+.publishers li img{
+    width: 8vw;
+}
+.catalog{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.catalog h3{
+    padding-left: 10vw;
+    font-size: 1.5vw;
+    color: #805E52;
+}
+.catalog ul{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 4vw;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+.catalog li{
+    background-color: #C2C5AA;
+    color: #333D29;
+    font-size: 1.2vw;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog li img{
+    width: 10vw;
+    height: 12vw;
+}
+.catalog ul a{
+    margin-bottom: 1vw;
+    width: 10vw;
+    text-decoration: none;
+    background-color: #333D29;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.form{
+    width: 100vw;
+    height: 25vw;
+    background-color: #E6CCB2;
+    display: flex;
+    justify-content: space-between;
+}
+.form img{
+    width: 50vw;
+    height: 25vw;
+}
+.registration{
+    background-color: #333D29;
+    color: #A4AC86;
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.registration h3{
+    font-size: 1.5vw;
+}
+form{
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form .name{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.3vw;
+}
+form .email{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.3vw;
+}
+form button{
+    margin-top: 1vw;
+    width: 20vw;
+    background-color: #A4AC86;
+    font-weight: bold;
+    color: #333D29;
+    border-radius: 4px;
+}
+form input:not(:placeholder-shown):invalid {
+    border-color: #e17f7d;
+}
+form input:not(:placeholder-shown):invalid + .error-msg {
+    display: block;
+}
+.error-msg {
+    color: #e17f7d;
+    font-size: 1.1vw;
+    display: none;
+}
