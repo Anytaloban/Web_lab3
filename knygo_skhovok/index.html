@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Головна</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" alt="Логотип сайту" loading="lazy">
+            <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Пошук">
+            </div>
+            <nav class="main-nav"> 
+                <ul> 
+                    <li><a href="index.html">Головна</a></li> 
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contacts.html">Контакти</a></li> 
+                </ul> 
+            </nav>
+            <div class="icons">
+                <a href="#" class="heart-icon">❤️</a>
+                <a href="#" class="person-icon">👤</a>
+            </div>             
+        </header>
+        <main class="main">
+            <div class="search">
+            <img src="images/pages.jpg" alt="Фотогорафія книжкових сторінок" width="300" loading="lazy">
+            <h2>Знайди бажану книгу за назвою або автором:</h2>
+             <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Пошук">
+             </div>
+            </div>
+            <div class="publishers">
+            <h3>Шукати за видавництвом:</h3>
+            <ul> 
+                <li><a href="#"><img src="images/icon_1.jpg" alt="Віват" height="70" loading="lazy"></a></li> 
+                <li><a href="#"><img src="images/icon_2.jpg" alt="ВСЛ" height="70" loading="lazy"></a></li> 
+                <li><a href="#"><img src="images/icon_3.jpg" alt="Артбукс" height="70" loading="lazy"></a></li> 
+                <li><a href="#"><img src="images/icon_4.jpg" alt="Лабораторія" height="70" loading="lazy"></a></li> 
+                <li><a href="#"><img src="images/icon_5.jpg" alt="Віхола" height="70" loading="lazy"></a></li> 
+            </ul>
+            </div>
+            <div class="catalog">
+            <h3>Бестселери:</h3>
+            <ul>
+                <li>
+                    <span class="favorite">♡</span>
+                    <h4>Книга 1</h4>
+                    <p>від 450₴</p>
+                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                </li>
+                <li>
+                    <span class="favorite">♡</span>
+                    <h4>Книга 2</h4>
+                    <p>від 450₴</p>
+                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                </li>
+                <li>
+                    <span class="favorite">♡</span>
+                    <h4>Книга 3</h4>
+                    <p>від 450₴</p>
+                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                </li>
+                <li>
+                    <span class="favorite">♡</span>
+                    <h4>Книга 4</h4>
+                    <p>від 450₴</p>
+                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                </li>
+            </ul>
+            </div>
+            <div class="form">
+            <h3>Створіть власний профіль:</h3>
+            <form action="/submit" method="POST"> 
+                <label for="name">Ім'я:</label> 
+                <input type="text" id="name" name="name"> 
+                <p></p> 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email"> 
+                <p></p> 
+                <button type="submit">Відправити</button> 
+            </form> 
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="images/logo.jpg" alt="Логотип сайту" width="200" loading="lazy">
+                <p>
+                Сервіс пошуку та порівняння цін на книги.
+                </p>
+            </div>  
+            <div class="dovidka">          
+            <h4>Довідка</h4>
+            <ul> 
+                <li><a href="#">Популярні питання</a></li>
+                <li><a href="#">Правила користування сайтом</a></li>
+            </ul> 
+            </div>
+        </footer>
+    </body>
+</html>
