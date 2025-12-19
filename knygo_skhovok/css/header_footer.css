@@ -44,6 +44,7 @@ header img{
     background-color: #cea983;
 }
 footer{
+    padding: 3vw;
     background-color: #805E52;
     display: flex;
     align-content: center;
