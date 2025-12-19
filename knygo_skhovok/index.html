@@ -24,14 +24,16 @@
                 <a href="#" class="person-icon">👤</a>
             </div>             
         </header>
-        <main class="main">
+        <main class="head">
             <div class="search">
-            <img src="images/pages.jpg" alt="Фотогорафія книжкових сторінок" width="300" loading="lazy">
-            <h2>Знайди бажану книгу за назвою або автором:</h2>
-             <div class="search-bar">
-                <span class="search-icon">🔍</span>
-                <input type="text" placeholder="Пошук">
-             </div>
+               <img src="images/pages.jpg" alt="Фотогорафія книжкових сторінок" width="300" loading="lazy">
+               <div class="panel">
+                    <h2>Знайди бажану книгу за назвою або автором:</h2>
+                    <div class="search-bar">
+                       <span class="search-icon">🔍</span>
+                       <input type="text" placeholder="Пошук">
+                    </div>
+                </div>
             </div>
             <div class="publishers">
             <h3>Шукати за видавництвом:</h3>
@@ -44,45 +46,56 @@
             </ul>
             </div>
             <div class="catalog">
-            <h3>Бестселери:</h3>
-            <ul>
-                <li>
-                    <span class="favorite">♡</span>
-                    <h4>Книга 1</h4>
-                    <p>від 450₴</p>
-                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
-                </li>
-                <li>
-                    <span class="favorite">♡</span>
-                    <h4>Книга 2</h4>
-                    <p>від 450₴</p>
-                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
-                </li>
-                <li>
-                    <span class="favorite">♡</span>
-                    <h4>Книга 3</h4>
-                    <p>від 450₴</p>
-                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
-                </li>
-                <li>
-                    <span class="favorite">♡</span>
-                    <h4>Книга 4</h4>
-                    <p>від 450₴</p>
-                    <a href="product_details.html" class="btn" target="_blank">Ціна</a>
-                </li>
-            </ul>
+                <h3>Бестселери:</h3>
+                <ul>
+                    <li>
+                        <span class="favorite">♡</span>
+                        <img src="images/icon_1.jpg" alt="Обкладинка книги">
+                        <h4>Книга 1</h4>
+                        <p>від 450₴</p>
+                        <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                    </li>
+                    <li>
+                        <span class="favorite">♡</span>
+                        <img src="#" alt="Обкладинка книги">
+                        <h4>Книга 2</h4>
+                        <p>від 450₴</p>
+                        <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                    </li>
+                    <li>
+                        <span class="favorite">♡</span>
+                        <img src="#" alt="Обкладинка книги">
+                        <h4>Книга 3</h4>
+                        <p>від 450₴</p>
+                        <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                    </li>
+                    <li>
+                        <span class="favorite">♡</span>
+                        <img src="#" alt="Обкладинка книги">
+                        <h4>Книга 4</h4>
+                        <p>від 450₴</p>
+                        <a href="product_details.html" class="btn" target="_blank">Ціна</a>
+                    </li>
+                </ul>
             </div>
             <div class="form">
-            <h3>Створіть власний профіль:</h3>
-            <form action="/submit" method="POST"> 
-                <label for="name">Ім'я:</label> 
-                <input type="text" id="name" name="name"> 
-                <p></p> 
-                <label for="email">Email:</label> 
-                <input type="email" id="email" name="email"> 
-                <p></p> 
-                <button type="submit">Відправити</button> 
-            </form> 
+                <div class="registration">
+                    <h3>Створіть власний профіль:</h3>
+                    <form action="/submit" method="POST"> 
+                        <div class="name">
+                        <label for="name">Ім'я:</label> 
+                        <input type="text" id="name" name="name" required placeholder="Ваше ім'я">
+                        <span class="error-msg">Будь ласка, введіть ім'я</span> 
+                        </div>
+                        <div class="email">
+                        <label for="email">Email:</label> 
+                        <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                        <span class="error-msg">Введіть коректний email</span>
+                        </div> 
+                        <button type="submit">Відправити</button>                         
+                    </form> 
+                </div>
+                <img src="images/roses_2.jpg" alt="Зображення троянд" loading="lazy">
             </div>
         </main>
         <footer>
