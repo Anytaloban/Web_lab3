@@ -1,12 +1,18 @@
 @import url("header_footer.css");
+@import url("index.css");
 @font-face{
     src: url(fonts/Montserrat-Regular.ttf);
     font-family: Montserrat;
+}
+@font-face{
+    src: url(fonts/CormorantGaramond-Light.ttf);
+    font-family: CormorantGaramond;
 }
 body{   
     margin: 0; 
     padding: 0;   
 }
+/*Для Про нас*/
 main{
     margin: 0;
     padding: 2vw;
@@ -32,6 +38,7 @@ main{
 .about p{
     font-size: 1.25vw;
 }
+/*Для Контакти*/
 .contacts{
     background-color: #c2c5aa;
     color: #333D29;
@@ -39,7 +46,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .contacts img{
     width: 30vw;
@@ -59,5 +65,132 @@ main{
     padding: 0;
     margin: 1vw;
     font-size: 1vw;
+}
+/*Для Деталі товару*/
+.hyperlink{
+    display: flex;
+}
+.hyperlink #heart{
+    margin: 0.2vw;
+    padding: 0.4vw;
+    text-decoration: none;
+    color: #333D29;
+    background-color: #F2D6D6;
+    border: 1px solid #333D29;
+    font-family: Montserrat;
+    height: 2.2vw;
+    font-size: 1.6vw;
+    border-radius: 4px;
+}
+.hyperlink #site{
+    margin: 0.2vw;
+    padding: 0.4vw;
+    text-decoration: none;
+    color: white;
+    background-color: #333D29;
+    font-family: Montserrat;
+    font-size: 1.6vw;
+    border-radius: 4px;
+}
+.info ul{
+    padding:0;
+    list-style: none;
+    display: flex;
+    justify-content:stretch;
+}
+.info li{
+    background-color: white;
+    border: 1px solid #805E52;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 4px;
+}
+.info h2, h3{
+    font-family: Montserrat;
+    font-size: 3vw;
+    margin-left: 0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+.compare{
+    width: 100vw;
+    background-color: #A4AC86;
+    display: flex;
+    justify-content: space-between;
+}
+.compare img{
+    width: 45vw;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+.prices ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.prices ul img{
+    list-style: none;
+    width: 13vw;
+    height: 8vw;
+}
+.prices li{
+    width: 40vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.prices .button_with_price{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+}
+.button_with_price a{
+    text-decoration: none;
+    background-color: #333D29;
+    color:white;
+    padding: 1vw;
+    border-radius: 4px;
+}
+.button_with_price p{
+    font-size: 2vw;
+    font-weight:bolder;
+    color: white;
+}
+.compare h2{
+    padding-left: 8vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    color:  #333D29;
+    font-family: Montserrat;
+}
+.description{
+    font-family: Montserrat;
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: #c2c5aa;
+    color: #333D29;
+    width: 70vw;
+}
+.description h3{
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 0;
+}
+.description p{
+    font-size: 1.25vw;
 }
 
